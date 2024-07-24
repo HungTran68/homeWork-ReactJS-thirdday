@@ -1,5 +1,5 @@
 import React from 'react';
-import BoxItems from '../BoxItems';
+import BoxItems from '../BoxItems/BoxItems';
 
 
 const Content = () => {
@@ -20,7 +20,6 @@ const Content = () => {
                         <BoxItems />
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="box-items-com">
                         <BoxItems />
