@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap-container{
+    width: 100%; 
+}
+
+.container{
+    /* padding-top: 20px; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    
+}
+
+.menu-backgound{
+    background-color: #F8F9FB;
+}
+
+.left-menu-top{
+    display: flex;
+    gap: 20px;
+}
+
+.left-menu-top > div:first-child{
+    font-weight: bolder;
+}
+
+.right-menu-top{
+    display: flex;
+    gap: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+/* Header */
+
+.wrap-container-header{
+    width: 100%;
+    background-color: black;
+}
+
+.wrap-container-header .content{
+    color: white;
+    font-size: 30px;
+}
+
+.content{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Content */
+
+.container-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-top: 25px; */
+}
+
+.box-items-com{
+    width: 23%;
+    /* background-color: aqua; */
+    border: 1px solid rgb(177, 174, 174);
+    height: 380px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Box-items */
+
+.box-items{
+    width: 100%;
+    
+}
+
+.box-items .image-item{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    border-radius: 8px 8px 0 0 ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.box-items .name-item{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 140px;
+    align-items: center;
+}
+
+.box-items .btn-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add button{
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 4px;
+    background-color: rgb(247, 245, 245)
+}
+
